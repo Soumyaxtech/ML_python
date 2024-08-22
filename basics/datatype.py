@@ -39,4 +39,5 @@ print(x//y)     # gives only int result
 
 
 num = input("number : ")
-print()
+#print(num+10)   # usually return as a string so convert
+print(int(num)+10)
